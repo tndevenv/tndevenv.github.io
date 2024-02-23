@@ -1,0 +1,424 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ten | Software Engineer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript" src="assets/js/emailservice.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contactform').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('default_service', 'template_h8imlhh', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+			document.getElementById('contactform').reset();
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- Banner -->
+					<section class="banner style1 fullscreen onload-content-fade-right">
+						<div class="content">
+                <h1>Ten Dao-Nguyen</h1>
+							<p class="major"><b>Software engineer</b> with experience in mobile, desktop, and web applications and services. Specializing in <b>full-stack development</b> and <b>responsive design</b>.</p>
+							<p class="major"><i>Learning with intentional abandon.</i></p>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content small">
+              <p>Back in 2012, I built my first console application that generated a pun from a collection of puns the pun-derful people in my life would share. It led me to dive head-first into the wonders of this craft known as software development. </p>
+              <p>Fast forward to today, and I’ve had the privilege of building software for start-ups up to large corporations within industries ranging from data management, health and wellness, financial technology, identity theft/prevention, public safety, and international standards.</p>
+              <p>My main focus these days is to develop software meant to change the world, however big or small the impact. I love building software for the plethora of communities that exist and involving these people with an array of lived experiences into the process of a solutions design.</p>
+              <p>When I’m not at the computer, I’m usually reading, embroidering, spending time with my partner and our 2 dogs, or cycling aimlessly while enjoying the outdoors.</p>
+						</div>
+						<div class="image">
+							<img src="images/spotlight06.png" alt="" />
+						</div>
+					</section>
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+              <h2>Notable Experience</h2>
+							<div class="index align-left">
+                <!-- Exprience -->
+                <section>
+                  <header>
+                    <h3><a href="https://codeforamerica.org/" target="_blank">Code For America</a> - <a href="https://www.hackforla.org/">LA</a></h3>
+                    <p>Hack For LA</p>
+                  </header>
+                  <div class="content">
+                    <p>Developing software that allows for the visualization of 311 call data and how they are addressed. Made possible by the <a href="https://data.lacity.org/" target="_blank">LA Open Data initiative</a>. </p>
+                  </div>
+                </section>
+                <section>
+                  <header>
+                    <h3><a href="https://www.precisely.com/" target="_blank">Precisely</a></h3>
+                  </header>
+                  <div class="content">
+                    <p>Developing internal software for a suite of data management products being used by (at the time) 97 of the Fortune 100.</p>
+                  </div>
+                </section>
+                <section>
+                  <header>
+                    <h3><a href="https://www.idiq.com/" target="_blank">IDIQ</a></h3>
+                  </header>
+                  <div class="content">
+                    <p>Developing software to protect and mitigate harm inflicted on individuals before/after identity theft and data breach attacks.</p>
+                  </div>
+                </section>
+                <section>
+                  <header>
+                    <h3><a href="https://www.iapmo.org/" target="_blank">IAPMO</a></h3>
+                    <p>International Association of Plumbing and Mechanical Officials</p>
+                  </header>
+                  <div class="content">
+                    <p>Developing the internal operations software for a international standards body that develops and publishes Uniform Codes.</p>
+                  </div>
+                </section>
+                <section>
+                  <header>
+                    <h3>Notable Work</h3>
+                  </header>
+                  <div class="content">
+                    <p>List of production-level features I've developed over the years.</p>
+                    <div class="table-wrapper">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Feature</th>
+                            <th>Description</th>
+                            <th>Year(s) of Work</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>User Interfaces</td>
+                            <td>Creating front-end applications that ranged from consumer-facing to internal-facing. </td>
+                            <td>2016 - Present</td>
+                          </tr>
+                          <tr>
+                            <td>Dashboard</td>
+                            <td>Building product dashboards spanning the development of dashboards from scratch to UI/feature/backend enhancements to an existing solution.</td>
+                            <td>2016, 2017, 2018, 2020, 2021, 2022, Present</td>
+                          </tr>
+                          <tr>
+                            <td>Reports</td>
+                            <td>Generating reports from relational/non-relational databases for the internal/external use of an organization.</td>
+                            <td>2018, 2019, 2020, 2021, Present</td>
+                          </tr>
+                          <tr>
+                            <td>Internal/External API's</td>
+                            <td>Developing API endpoints (using REST, SOAP, GraphQL, and more) made internally/externally available for varying use cases. </td>
+                            <td>2016, 2018, 2019, 2020, 2021, 2022, Present</td>
+                          </tr>
+                          <tr>
+                            <td>3rd Party Integrations</td>
+                            <td>Integrating 3rd party solutions to the existing application of an organization.</td>
+                            <td>2016 - Present</td>
+                          </tr>
+                          <tr>
+                            <td>Authentication / Authorization</td>
+                            <td>Developing Auth solutions implementing OAUTH/OIDC protocols for the internal and external users of an organization.</td>
+                            <td>2018, 2019, 2020, 2021, Present</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+
+				<!-- Project -->
+          <section class="spotlight wrapper style1 fullscreen onload-content-fade-right">
+						<div class="content">
+							<h2>Projects</h2>
+              <p>To learn about more solutions I've built feel free to <a href="#contactme">get in touch</a>.</p>
+            </div>
+            <div class="image">
+							<img src="images/spotlight03.png" alt="" />
+						</div>
+          </section>
+
+				<!-- Project: AI Summarizer -->
+					<section class="spotlight iphone onscroll-image-fade-in style3 orient-right content-align-left image-position-center">
+						<div class="content">
+							<h2>AI Summarizer</h2>
+							<p>An open-source AI article summarizer using <b>GPT 4</b>.</p>
+							<ul class="actions stacked">
+								<li><a href="https://ai-summarizer-tn.vercel.app" target="_blank" class="button">View</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/ai-sum-iphone.png" alt="" />
+						</div>
+					</section>
+
+					<!-- Project: AI Summarizer -->
+					<section class="spotlight onscroll-image-fade-in style3 android content-align-left image-position-center orient-left">
+						<div class="content">
+							<h2>Driveee</h2>
+							<p>An open-source phishing simulation of a car rental service.</p>
+							<ul class="actions stacked">
+								<li><a href="https://driveee.vercel.app" target="_blank" class="button">View</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/driveee-iphone.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Technologies -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Technologies</h2>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon solid style2 major fa-desktop"></span>
+                  <h3>Tech Stacks</h3>	
+                  <p>	
+                      Mongo / Express / React / Node <br>	
+                      Mongo / Express / Angular / Node <br>	
+                      .NET / jQuery / MSSQL<br>	
+                      .NET / Angular / MSSQL<br>	
+                      .NET Core	/ React / MSSQL<br>	
+                      NextJS / React (SSR & SSG)	<br>
+                      & more.
+                  </p>	
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-gem"></span>
+									<h3>Languages</h3>
+                  <p>	
+                    Javascript	<br>	
+                    Typescript <br>	
+                    C# <br>	
+                    SQL <br>	
+                    TSQL <br>	
+                    PSQL <br>	
+                    Python
+                  </p>	
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-save"></span>
+									<h3>Database</h3>
+                  <p>
+                    Relational dbs <br>					
+                    _MS SQL <br>	
+                    _Oracle	<br>
+                    _PostgreSQL	<br>
+                    Non-relational dbs <br>
+                    _MongoDB <br>
+                    _GCP Firestore <br>
+                    Object Storage 
+                  </p>	
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-leaf"></span>
+                  <h3>Design</h3>	
+                  <p>
+                    Bootstrap<br>
+                    _jQuery Bootstrap<br>
+                    _React Bootstrap<br>	
+                    Material Design<br>	
+                    _AngularJS Material <br>	
+                    TailwindCSS
+                  </p>	
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-cog"></span>
+                  <h3>APIs</h3>	
+                  <p>	
+                      REST API development <br>	
+                      _Internal <br>
+                      _External <br>
+                      (token generation) <br>
+                      3rd-party APIs handling: <br>
+                      _Authentication <br>
+                      _Business Functionality <br>
+                      _Partner Integration
+                  </p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-paper-plane"></span>
+                  <h3>XaaS</h3>	
+                  <p>	
+                    Subversion, TFSVC, GIT <br>
+                    Azure DevOps<br>	
+                    Amazon Web Services <br>	
+                    Google Cloud Platform <br>
+                    Docker / K8s / Terraform 
+                  </p>	
+								</section>
+							</div>
+						</div>
+					</section>
+
+        <!-- More Technologies -->	
+        <section class="wrapper style1 align-center">	
+          <div class="inner">	
+              <div class="index align-left">	
+                  <section>	
+                      <header>	
+                          <h3>More Technologies</h3>	
+                      </header>	
+                      <div class="content">	
+                          <dl>	
+                              <dt><u>JavaScript:</u></dt>	
+                              <dd>	
+                                  <p>	
+                                      NodeJS <br>	
+                                      Express <br>	
+                                      Sequelize <br>  
+                                      Knex <br>
+                                      & more.
+                                  </p>	
+                              </dd>
+                              <dt><u>.NET Framework:</u></dt>
+                              <dt>ASP.NET: </dt>	
+                              <dd>	
+                                  <p>	
+                                      MVC <br>	
+                                      Razor <br>	
+                                      Web API
+                                  </p>	
+                              </dd>	
+                            <dt>WinForms</dt>
+                            <dt>WPF</dt>
+                                
+                            <dt><u>.NET Core Framework:</u></dt> 
+                              <dt>ASP.NET Core: </dt>	
+                              <dd>	
+                                  <p>	
+                                      MVC <br>	
+                                      Blazor  <br>	
+                                      Web API
+                                  </p>	
+                              </dd>
+                              <dt>WPF</dt>
+                              <dt><u>Data-Oriented Tools:</u></dt>	
+                              <dd>	
+                                  <p>	
+                                      ADO.Net <br>	
+                                      Entity Framework <br>	
+                                      - Code-First Design <br>	
+                                      - DB-First Design <br>	
+                                      LINQ	
+                                  </p>	
+                              </dd>	
+                              <dt><u>Testing:</u></dt>	
+                                  <dd>	
+                                      <p>	
+                                          Selenium <br>	
+                                          XUnit <br>	
+                                          NUnit 	
+                                      </p>	
+                                  </dd>
+                              <dt><u>Design:</u></dt>	
+                              <dd>	
+                                  <p>	
+                                      Material Icons Library<br>	
+                                      Toastr <br>	
+                                      Animate.css <br>	
+                                      Skeleton <br>	
+                                      Font Awesome <br>	
+                                      Google Fonts <br>
+                                      & more.
+                                  </p>	
+                              </dd><dd>	
+                              </dd>
+                              <dt><u>Application Architecture/Design:</u></dt>	
+                              <dd>	
+                                  <p>	
+                                      <a target="_blank" href="http://microservices.io/patterns/monolithic.html">Monolithics </a>/ <a target="_blank" href="https://microservices.io/index.html">Microservices</a><br>	
+                                      <a target="_blank" href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">Responsive Web Design Principles</a> <br>	
+                                      & more. <br><br>
+                                  </p>	
+                                </dd>	
+                              <dt><u>Accessibility:</u></dt>	
+                              <dd>	
+                                  <p>	
+                                      <a target="_blank" href="https://www.a11yproject.com/checklist/">A11Y Project Checklist</a> <br>	
+                                      <a target="_blank" href="https://wave.webaim.org/">WAVE</a><br>	
+                                      <a target="_blank" href="https://www.accessiway.com/accessscan">AccessScan</a><br>	
+                                      <a href="https://www.npmjs.com/package/html_codesniffer" target="_blank" >HTML_CodeSniffer</a> <br><br>
+                                  </p>	
+                                </dd>	
+                              </dl>	
+                          </div>	
+                      </section>	
+                  </div>	
+              </div>	
+          </section>	
+
+					<!-- Contact Me -->
+          <section class="wrapper style1 align-center invert" id="contactme">
+            <div class="inner">
+              <h2>Contact Me</h2>
+             <!-- Form -->
+              <section>
+                <div class="content">
+                  <form id="contactform">
+                    <div class="fields">
+                      <div class="field half">
+                        <label for="name">Name</label>
+                        <input type="text" name="to_name" id="name" value="" />
+                      </div>
+                      <div class="field half">
+                        <label for="email">Email</label>
+                        <input type="email" name="to_email" id="email" value="" />
+                      </div>
+                      <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6"></textarea>
+                      </div>
+                    </div>
+                    <ul class="actions">
+                      <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+                    </ul>
+                  </form>
+                </div>
+              </section>
+            </div>
+          </section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/traycn" target="_blank" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/tracy-n" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:tn.eng@outlook.com" target="_blank" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; 2024 Ten Dao-Nguyen. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
